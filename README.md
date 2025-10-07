@@ -14,7 +14,7 @@ Voici quelques projets que j’ai réalisés :
 - **Création de synthèse de parole** avec Praat et Python  
 - **Classification d’interventions parlementaires multilingues**  
 
-Pour plus de détails, consulte la section [Projets](https://tanninaham.github.io/Portfolio_NLP/#projets) sur mon site.
+Pour plus de détails, consulte la section [Projets](https://tanninaham.github.io/Portfolio-NLP/#projets) sur mon site.
 
 ## Technologies
 - Langages : Python, R, SQL, HTML/CSS  
@@ -22,7 +22,7 @@ Pour plus de détails, consulte la section [Projets](https://tanninaham.github.i
 - Outils : Git, GitHub, FastAPI, Neo4j  
 
 ## Accès au portfolio
-Le portfolio en ligne est disponible ici : [lien GitHub Pages](https://tanninaham.github.io/Portfolio_NLP/)
+Le portfolio en ligne est disponible ici : [lien GitHub Pages](https://tanninaham.github.io/Portfolio-NLP/) 
 
 ## Contact
 - Email : hamizi.tannina@gmail.com 
