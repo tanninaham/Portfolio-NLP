@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - NLP & IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">Portfolio NLP</div>
+                <ul class="nav-links">
+                    <li><a href="#hero">Accueil</a></li>
+                    <li><a href="#formation">Formation</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div>
+            <h1 class="hero-title">Tannina Hamizi</h1>
+            <p class="hero-role">Spécialiste NLP, Data & IA</p>
+            <p class="hero-subtitle">Traitement Automatique des Langues & Intelligence Artificielle</p>
+
+            <p class="hero-description">
+                Diplômée en <strong>Traitement Automatique des Langues</strong>, je suis passionnée par la <strong>data</strong> et l'<strong>IA</strong>.  
+                J'adore explorer, analyser et structurer des données complexes pour en extraire des insights pertinents.  
+                Je conçois des <strong>modèles NLP</strong> et des <strong>chatbots intelligents</strong> capables de comprendre et d’interagir naturellement avec les utilisateurs.  
+                <br><br>
+                Curieuse et rigoureuse, je transforme les challenges techniques en opportunités d’innovation.
+            </p>
+
+            <div class="cta-buttons">
+                <a href="#projets" class="btn btn-primary">Découvrir mes projets</a>
+                <a href="#contact" class="btn btn-secondary">Me contacter</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+
+    <!-- Formation & Cours -->
+    <section id="formation">
+        <div class="container">
+            <h2 class="section-title fade-in">Formation</h2>
+            <div class="formation-grid">
+                <div class="formation-card fade-in">
+                    <div class="formation-date">09/2022 - 09/2024</div>
+                    <h3 class="formation-title">Master Traitement automatique des langues / NLP</h3>
+                    <p class="formation-school">Université Paris Nanterre, France</p>
+                    <p class="formation-description">Spécialisation avancée en linguistique computationnelle et intelligence artificielle.</p>
+                </div>
+                <div class="formation-card fade-in">
+                    <div class="formation-date">09/2019 - 06/2022</div>
+                    <h3 class="formation-title">Licence Sciences du Langage</h3>
+                    <p class="formation-school">Université Paris Nanterre, France</p>
+                    <p class="formation-description">Étude approfondie du langage et introduction aux méthodes computationnelles.</p>
+                </div>
+            </div>
+
+            <h3 style="color:#60a5fa; text-align:center; margin-top:3rem; margin-bottom:2rem;">Cours Suivis</h3>
+<div class="formation-grid">
+    <div class="formation-card">
+        <h4 class="formation-title">Linguistique computationnelle</h4>
+        <p class="formation-description">
+            Modélisation linguistique, parsing, corpus arborés, annotations sémantiques, 
+            grammaires formelles et fouilles de textes.
+        </p>
+    </div>
+    <div class="formation-card">
+        <h4 class="formation-title">Machine Learning & NLP</h4>
+        <p class="formation-description">
+            Apprentissage automatique, RNN, Transformers, text generation, classification et enrichissement de corpus.
+        </p>
+    </div>
+    <div class="formation-card">
+        <h4 class="formation-title">Analyse statistique et traitement de corpus</h4>
+        <p class="formation-description">
+            Statistiques textuelles, visualisation de données, outils de traitement de corpus, 
+            programmation en Python et R.
+        </p>
+    </div>
+    <div class="formation-card">
+        <h4 class="formation-title">Web sémantique & ingénierie des connaissances</h4>
+        <p class="formation-description">
+            Ontologies, Protégé, OWL, SPARQL, documents structurés et linguistique outillée.
+        </p>
+    </div>
+    <div class="formation-card">
+        <h4 class="formation-title">Synthèse de parole & Multilinguisme</h4>
+        <p class="formation-description">
+            Phonétique, synthèse et reconnaissance de la parole (Praat, Python), 
+            gestion informatique du multilinguisme et langue des signes.
+        </p>
+    </div>
+    <div class="formation-card">
+        <h4 class="formation-title">Gestion de projet</h4>
+        <p class="formation-description">
+            Organisation et planification de projets TAL, coordination d’équipes, suivi de développement 
+            et mise en œuvre de solutions techniques. Méthodes Agile, Scrum, Kanban et planification itérative.
+        </p>
+    </div>
+
+</div>
+        </div>
+    </section>
+
+<!-- Projets -->
+<section id="projets" class="section">
+    <div class="container">
+        <h2 class="section-title fade-in">Projets</h2>
+        <div class="projects-grid">
+
+            <div class="project-card fade-in">
+                <h3 class="project-title">DetectTweets – Détection du discours haineux</h3>
+                <span class="project-tech">Python • RNN • BERT • FastAPI • TensorFlow</span>
+                <p class="project-description">
+                    Développement d’un système de <strong>détection du discours haineux</strong> sur Twitter.
+                </p>
+                <ul class="project-points">
+                    <li>📊 <strong>Données :</strong> corpus Twitter annoté (22 660 tweets) réduit à 5 308 pour l’entraînement</li>
+                    <li>🧹 <strong>Prétraitement :</strong> nettoyage (mentions, liens, ponctuation), mise en minuscules</li>
+                    <li>🧠 <strong>Modèles :</strong> RNN et BERT</li>
+                    <li>⚙️ <strong>Paramètres :</strong> séquence max = 40, batch size = 30, 12 epochs, early stopping</li>
+                    <li>💻 <strong>Interface :</strong> FastAPI + interface utilisateur HTML/CSS/JS</li>
+                    <li>🚀 <strong>Déploiement :</strong> serveur Uvicorn avec intégration du modèle RNN</li>
+                </ul>
+                <p class="project-description">🎯 Objectif : proposer une solution robuste pour <strong>lutter contre la haine en ligne</strong>.</p>
+                <a class="project-link" href="https://github.com/tanninaham/Interface_web" target="_blank">🔗 Voir le projet sur GitHub</a>
+            </div>
+
+                        <div class="project-card fade-in">
+                <h3 class="project-title">Classification Parlementaire</h3>
+                <span class="project-tech">Python • SGD • Random Forest • Naive Bayes • NLP</span>
+                <p class="project-description">
+                    Conception d’un modèle de <strong>classification automatique</strong> d’interventions parlementaires multilingues afin d’analyser les discours politiques.
+                </p>
+                <ul class="project-points">
+                    <li>🗣️ Prétraitement linguistique et vectorisation des textes (TF-IDF)</li>
+                    <li>⚙️ Entraînement et comparaison de plusieurs modèles de machine learning</li>
+                    <li>📊 Évaluation des performances à l’aide de métriques de précision et de rappel</li>
+                    <li>🌍 Gestion de corpus multilingues (français, anglais, espagnol)</li>
+                    <li>🔍 Analyse thématique des discours et regroupement par tendance politique</li>
+                    <li>🎯 Objectif : automatiser l’analyse du langage parlementaire pour faciliter la compréhension des débats politiques.</li>
+                </ul>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3 class="project-title">Reconnaissance d’Adverbes Temporels</h3>
+                <span class="project-tech">Unitex • Linguistique computationnelle • Corpus français</span>
+                <p class="project-description">
+                    Développement d’un système de <strong>détection automatique d’adverbes temporels</strong> dans un corpus textuel en français.
+                </p>
+                <ul class="project-points">
+                    <li>🧩 Création de grammaires locales et règles linguistiques sous Unitex</li>
+                    <li>⏳ Identification des structures temporelles complexes (“il y a deux ans”, “depuis longtemps”…)</li>
+                    <li>📚 Enrichissement de la base lexicale du français</li>
+                    <li>🧠 Application d’une approche mixte entre linguistique et TAL</li>
+                    <li>🎯 Objectif : améliorer la reconnaissance automatique des expressions temporelles dans les systèmes de TAL.</li>  
+                </ul>    
+            </div>
+
+            <div class="project-card fade-in">
+                <h3 class="project-title">Synthèse de Parole</h3>
+                <span class="project-tech">Praat • Phonétique</span>
+                <p class="project-description">
+                    Développement d’un système de <strong>synthèse vocale à base de diphones</strong>.
+                </p>
+                <ul class="project-points">
+                    <li>🎙️ <strong>Corpus :</strong> enregistrement de logatomes couvrant 194 diphones</li>
+                    <li>🗂️ <strong>Segmentation :</strong> annotation manuelle avec <code>TextGrid</code></li>
+                    <li>🔤 <strong>Dictionnaire :</strong> adaptation des transcriptions phonétiques</li>
+                    <li>⚙️ <strong>Script Praat :</strong> concaténation automatique des diphones</li>
+                    <li>🔊 <strong>Résultats :</strong> fichier audio synthétisé</li>
+                    <li>📈 <strong>Problèmes :</strong> gestion de la prosodie (f0/durée)</li>
+                    <li>🎯 <strong>Objectif :</strong> explorer les enjeux de prosodie et naturalité</li>
+                </ul>
+                <a class="project-link" href="https://github.com/tanninaham/Synthese-de-Parole#" target="_blank">🔗 Voir le projet sur GitHub</a>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3 class="project-title">Analyse Sémantique du mot "Pouvoir"</h3>
+                <span class="project-tech">Transformers • BERT • Python • NLP</span>
+                <p class="project-description">
+                    Étude des <strong>variations sémantiques</strong> du mot “pouvoir” dans un corpus d’entretiens oraux en français.
+                </p>
+                <ul class="project-points">
+                    <li>🧠 Utilisation du modèle BERT pour la représentation contextuelle des occurrences</li>
+                    <li>🔎 Analyse des différences de sens selon le contexte discursif</li>
+                    <li>📈 Extraction de clusters sémantiques pour regrouper les usages similaires</li>
+                    <li>💬 Interprétation linguistique et pragmatique des résultats</li>
+                </ul>
+                <p class="project-description">🎯 Objectif : explorer la polysémie et la compréhension contextuelle du langage par les modèles de NLP.</p>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3 class="project-title">Ontologie des Œuvres d’Art</h3>
+                <span class="project-tech">Protégé • OWL • RDF • SPARQL</span>
+                <p class="project-description">
+                    Conception et implémentation d’une <strong>ontologie des œuvres d’art</strong>.
+                </p>
+                <ul class="project-points">
+                    <li>📚 Modélisation des artistes, techniques et mouvements artistiques</li>
+                    <li>🖼️ Représentation des œuvres d’art et métadonnées</li>
+                    <li>🔗 Mise en place de relations entre concepts</li>
+                    <li>🔎 Requêtes SPARQL pour extraire des connaissances</li>
+                    <li>🎯 Objectif pédagogique : apprentissage du Web sémantique</li>
+                </ul>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3 class="project-title">Chatbot Médical</h3>
+                <span class="project-tech">Python • Tkinter • OWL • NLP</span>
+                <p class="project-description">
+                    Développement d’un <strong>chatbot médical intelligent</strong> basé sur une ontologie.
+                </p>
+                <ul class="project-points">
+                    <li>🔎 Détection automatique des symptômes</li>
+                    <li>🦠 Identification des maladies possibles</li>
+                    <li>🫀 Affichage des organes affectés</li>
+                    <li>ℹ️ Explication médicale</li>
+                    <li>💡 Conseils associés</li>
+                    <li>💻 Interface : application graphique Tkinter / FastAPI </li>
+                    <li>🚀 Déploiement : exécutable autonome Python</li>
+                </ul>
+                <p class="project-description">🎯 Objectif : outil d’aide à la décision pour les professionnels de santé.</p>
+                <a class="project-link" href="https://github.com/tanninaham/Chatbot_medical" target="_blank">🔗 Voir le projet sur GitHub</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+        </div>
+    </div>
+</section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+    <div class="container">
+        <h2 class="section-title fade-in">Compétences</h2>
+        <div class="skills-container">
+
+            <div class="skill-category fade-in">
+                <h3>🤖 NLP & IA</h3>
+                <div>
+                    <span class="skill-tag">Transformers</span>
+                    <span class="skill-tag">BERT</span>
+                    <span class="skill-tag">RNN</span>
+                    <span class="skill-tag">Word2Vec</span>
+                    <span class="skill-tag">Scikit-Learn</span>
+                    <span class="skill-tag">NLTK</span>
+                    <span class="skill-tag">SpaCy</span>
+                    <span class="skill-tag">Apprentissage automatique</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3>🛠️ Data & Analyse</h3>
+                <div>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">R</span>
+                    <span class="skill-tag">NumPy</span>
+                    <span class="skill-tag">Pandas</span>
+                    <span class="skill-tag">Matplotlib</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Neo4j</span>
+                    <span class="skill-tag">Analyse de données</span>
+                    <span class="skill-tag">Visualisation de données</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3>🌐 Web & Ontologies</h3>
+                <div>
+                    <span class="skill-tag">Scraping</span>
+                    <span class="skill-tag">Protégé</span>
+                    <span class="skill-tag">SPARQL</span>
+                    <span class="skill-tag">OWL</span>
+                    <span class="skill-tag">RDF</span>
+                    <span class="skill-tag">Web Sémantique</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3>💻 Développement & Outils</h3>
+                <div>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">GitLab</span>
+                    <span class="skill-tag">Jupyter Notebook</span>
+                    <span class="skill-tag">Visual Studio Code</span>
+                    <span class="skill-tag">LaTeX</span>
+                    <span class="skill-tag">Microsoft Word</span>
+                    <span class="skill-tag">Google Docs</span>
+                </div>
+            </div>
+
+            <div class="skill-category fade-in">
+                <h3>🌐 Web & Balisage</h3>
+                <div>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">XML</span>
+                    <span class="skill-tag">TEI</span>
+                    <span class="skill-tag">XSLT</span>
+                    <span class="skill-tag">XPath</span>
+                    <span class="skill-tag">XQuery</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact -->
+<section id="contact" class="contact section">
+    <div class="container">
+        <div class="contact-content">
+            <h2 class="section-title fade-in">Contact</h2>
+            <p class="contact-description fade-in">
+                Je suis disponible pour des projets, collaborations ou opportunités professionnelles.
+            </p>
+            <div class="contact-info fade-in">
+                <a href="mailto:hamizi.tannina@gmail.com" class="contact-item">📧 hamizi.tannina@gmail.com</a>
+                <a href="https://www.linkedin.com/in/tannina-hamizi" target="_blank" class="contact-item">💼 LinkedIn</a>
+                <a href="https://github.com/tanninaham" target="_blank" class="contact-item">🐙 GitHub</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if(window.scrollY > 50){nav.classList.add('scrolled');}
+            else {nav.classList.remove('scrolled');}
+        });
+
+        
+        const faders = document.querySelectorAll('.fade-in');
+        const appearOptions = {threshold:0.2, rootMargin:"0px 0px -50px 0px"};
+        const appearOnScroll = new IntersectionObserver(function(entries, observer){
+            entries.forEach(entry => {
+                if(!entry.isIntersecting) return;
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            });
+        }, appearOptions);
+        faders.forEach(fader => {appearOnScroll.observe(fader);});
+    </script>
+</body>
+</html>
