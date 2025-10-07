@@ -83,6 +83,7 @@ nav.scrolled {
   text-align: center;
   position: relative;
   overflow: hidden;
+  padding-top: 130px;
 }
 .hero::before {
   content: '';
@@ -91,7 +92,6 @@ nav.scrolled {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M 50 0 L 0 0 0 50" fill="none" stroke="%23334155" stroke-width="1" opacity="0.3"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grid)"/></svg>');
   opacity: 0.1;
 }
 .hero-title {
